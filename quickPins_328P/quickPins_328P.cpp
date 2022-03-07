@@ -102,13 +102,16 @@ void quickWrite(uint8_t pin, uint8_t state){    // Write state to pin
 void quickToggle(uint8_t pin){                   // Toggle state on pin
     switch(checkPort(&pin)){                     // 0: B, 1: C, 2: D, 255: Error
         case 0:
-            PORTB ^= (0x01 << pin);
+            //PORTB ^= (0x01 << pin);
+            PINB |= (0x01 << pin);
             break;
         case 1:
-            PORTC ^= (0x01 << pin);
+            //PORTC ^= (0x01 << pin);
+            PINC |= (0x01 << pin);
             break;
         case 2:
-            PORTD ^= (0x01 << pin);
+            //PORTD ^= (0x01 << pin);
+            PIND |= (0x01 << pin);
             break;
         default:
             break;
