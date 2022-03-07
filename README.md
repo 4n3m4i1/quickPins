@@ -25,7 +25,7 @@ Time has yet to be properly tested.
 /**************************************************************************/
 
 Function Descriptions
-----------------------------------------------------------------------------
+
 quickMode(PIN, TYPE)
 	uint8_t PIN	Arduino.h equivalent pin number (0-13, 14-19 == A0 - A5)
 	uint8_t TYPE	INPUT or 0, OUTPUT or 1, INPUT_PULLUP or 2, TOGGLE or 3	
