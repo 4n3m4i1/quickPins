@@ -7,15 +7,15 @@ This library simply adds 5 functions, 4 of which replace common Arduino I/O func
 All functions respect default pin assignments and macros mapped in Arduino.h with mirrored functionality.
 	ie. pinMode(5, OUTPUT) == quickMode(5, OUTPUT)
 
-	Arduino.h Function			quickPins_328P.h Function Equivalent
+	**Arduino.h Function**			**quickPins_328P.h Function Equivalent**
 
-	pinMode(PIN, TYPE)			quickMode(PIN, TYPE)
-	digitalWrite(PIN, STATE)		quickWrite(PIN, STATE)
-	digitalRead(PIN)			quickRead(PIN)
+	-pinMode(PIN, TYPE)			-quickMode(PIN, TYPE)
+	-digitalWrite(PIN, STATE)		-quickWrite(PIN, STATE)
+	-digitalRead(PIN)			-quickRead(PIN)
 
-						quickPins_328P.h Unique Functions
+						**quickPins_328P.h Unique Functions**
 					
-						quickToggle(PIN)
+						-quickToggle(PIN)
 
 
 In many (notably not all) cases there is a 10-35% memory saving upon compile time.
