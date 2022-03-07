@@ -3,6 +3,7 @@ Untested currently but will likely function well on Arduino Nano (and clones)
 - To use place the unZipped folder quickPins_328P within the "libraries" folder in your Arduino IDE install location
 - Within your file 
 		#include "quickPins_328P.h"
+- The included example file displays basic usage!
 
 -----------------------------------------------------------------------------------------
 
@@ -23,7 +24,7 @@ All functions respect default pin assignments and macros mapped in Arduino.h wit
 
 In many (notably not all) cases there is a 10-35% memory saving upon compile time.
 
-Time has yet to be properly tested.
+Time advantages have yet to be properly tested.
 
 
 -----------------------------------------------------------------------------------------
