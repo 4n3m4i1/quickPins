@@ -1,5 +1,6 @@
 Quick Pins version for the ATMega328P Arduino Uno (and uno clones)
 Untested currently but will likely function well on Arduino Nano (and clones)
+- To use place the unZipped folder quickPins_328P and place within the "libraries" folder in you Arduino IDE install location
 
 -----------------------------------------------------------------------------------------
 
