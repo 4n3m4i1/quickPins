@@ -1,0 +1,13 @@
+For UNO: LED flashing, 1s period, 50% duty:
+						Memory Use:
+quickMode + 2x delay + 2x quick write	 	980 global	9 dynamic
+pinMode + 2x delay + 2x quick write		752		9
+
+quickMode + 1x delay + 1x toggle		602 global	9 dynamic
+pinMode + 1x delay + 1x toggle			714		9
+
+quickMode + 2x delay + 2x digitalWrite		862 global	9 dynamic
+pinMode + 2x delay + 2x digitalWrite		924		9
+
+By using quickPins_328P:
+	35% memory saved vs. standard beginner approach

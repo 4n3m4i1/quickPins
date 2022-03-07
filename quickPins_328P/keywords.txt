@@ -1,0 +1,6 @@
+
+quickMode	KEYWORD2
+quickRead	KEYWORD2
+quickWrite	KEYWORD2
+quickToggle	KEYWORD2
+checkPort	KEYWORD2
